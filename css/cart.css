@@ -1,0 +1,10 @@
+.content-wrap{margin-top: 130px; margin-bottom: 80px;}
+.checkout_details {}
+.checkout_details th, .checkout_details td {border: none !important;}
+.table-cart tr:last-child {border-bottom: 1px solid #dee2e6;}
+.checkout_details th, .checkout_details td {padding: 5px;}
+.checkout_details tr {border: none !important;}
+.button_choices {margin: 30px 0;}
+
+.cont-shop {font-size: 15px; letter-spacing: .5px; padding-top: 4px; box-sizing: border-box; line-height: 40px; outline: none; cursor: pointer; background-color: #fff; color: #2d2d2d; border: 1px solid #000; border-radius: 0 !important; transition: ease all 0.5s; text-transform: uppercase;}
+.cont-shop:hover {background-color: #ddd; border: 1px solid #ddd; transition: ease all .3s;}

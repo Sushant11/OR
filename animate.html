@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=x-euc">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property="og:url" content="" />
+<!--<meta property="og:image" content="">-->
+<meta property="og:title" content="Buy Great Quality Products Online" />
+<meta property="og:description" content="Online shopping has never been of this quality in Nepal" />
+	
+<meta name="keywords" content="tees, online shopping, best shoes" />
+
+<!--
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+-->
+    
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/product.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/Footer-Clean.css">
+    <link rel="stylesheet" rel="stylesheet" href="css/animate.min.css" media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/Brands.css">
+    <link rel="stylesheet" type="text/css" href="fa/css/fontawesome-all.min.css"/>
+
+<!--<link rel="stylesheet" href="css/swiper.min.css">-->
+
+<title>Shop Online for Great Quality Products</title>
+    </head>
+    <body>
+    <div class="revealOnScroll" data-animation='slideInLeft'>Hello World!</div>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/modernizr2.8.3.js"></script>
+    <script>
+        
+    $(document).ready(function(){
+	$(function() {
+		
+  var $window           = $(window),
+      win_height_padded = $window.height() * 0.9,
+      isTouch           = Modernizr.touch;
+
+  if (isTouch) { $('.revealOnScroll').addClass('animated'); }
+
+  $window.on('scroll', revealOnScroll);
+
+  function revealOnScroll() {
+    var scrolled = $window.scrollTop(),
+        win_height_padded = $window.height() * 0.9;
+
+    // Showed...
+    $(".revealOnScroll:not(.animated)").each(function () {
+      var $this     = $(this),
+          offsetTop = $this.offset().top;
+
+      if (scrolled + win_height_padded > offsetTop) {
+        if ($this.data('timeout')) {
+          window.setTimeout(function(){
+            $this.addClass('animated ' + $this.data('animation'));
+          }, parseInt($this.data('timeout'),10));
+        } else {
+          $this.addClass('animated ' + $this.data('animation'));
+        }
+      }
+    });
+    // Hidden...
+   $(".revealOnScroll.animated").each(function (index) {
+      var $this     = $(this),
+          offsetTop = $this.offset().top;
+      if (scrolled + win_height_padded < offsetTop) {
+        $(this).removeClass('animated zoomIn fadeInUp flipInX lightSpeedIn fadeInLeft fadeInDown fadeInRight fadeInUp slideInLeft slideInRight')
+      }
+    });
+  }
+
+  revealOnScroll();
+});  
+	});
+    </script>
+    
+    </body>
+</html>
