@@ -17,7 +17,7 @@ body {
 
 
 
-* {transition: ease all 0.5s;}
+* {transition: ease all 0.2s;}
 
 .font-basic {font-family: serif;}
 .font-rufina {font-family: 'Rufina'}
@@ -128,10 +128,13 @@ a:hover {
 .brand-or img {color: #fff;  margin-right: 20px; height: 50px; padding: 5px;}
 .brand-or:hover {color:#fff;}
 .topnav-right {float: right;}
-.banner {background-image: url(../img/banner.jpg); height: 100vh; background-size: cover; background-position: bottom;}
+.banner {bbackground-color: #ffffff;
+  background-image: linear-gradient(0deg, #ffffff 0%, #8bdef1 50%, #ffffff 100%);
+  
+   height: 100vh; background-size: cover; background-position: bottom;}
 .notice {background-color: #DF2D29; height: 50px; transition: ease all 0.9s; border-bottom: #fff 1px solid; background-color: #df2d29;}
 .notice-fixed {position: relative; top: 105px;}
-.btn-home {top: 50%;}
+.btn-home {top: 40%;}
 .grey-btn {background-color: #111; color: #fff; transition: ease all 100ms; text-transform: uppercase; border-radius: 0 !important; margin-top: 30px;}
 .grey-btn:hover {background-color: #efefef; color: #2d2d2d; transition: ease all 100ms;}
 .btn-text-home {font-size: 20px; padding: 10px;}
@@ -183,7 +186,8 @@ a:hover {
 /* .categ-item .card {border-radius: 0; border-bottom: 1px solid black;border:0} */
 .categ-item .card .card-body p {text-transform: uppercase;text-align: center;}
 .women-2c {padding: 45px;}
-.button-2c {color: rgb(0, 0, 0); border: 2px solid rgb(0, 0, 0); background: rgb(255, 255, 255); font-size: 16px; font-weight: bold; padding: 10px 15px; text-transform: uppercase; cursor: pointer;}
+.button-2c {color: rgb(0, 0, 0);border: 1px solid rgb(0, 0, 0);
+  background: none; font-size: 16px; font-weight: bold; padding: 10px 15px; text-transform: uppercase; cursor: pointer;}
 .swiper-men {padding: 100px; background-image: linear-gradient( 109.6deg, rgba(17,151,147,1) 11.2%, rgba(154,214,212,1) 55.4%, rgba(255,233,171,1) 100.2% );}
 .swiper-women {padding: 100px; background: #EB7C79;}
 .women-slide-wrap{padding: 30px;}
