@@ -123,8 +123,8 @@ a:hover {
 
 
 
-.home-nav li {border-right: 1px solid #ccc; display: inline-block; height: 100%; line-height: 20px; color: black !important; margin-right: 0 !important; padding: 0 15px;}
-.home-nav li:first-child {border-left: 1px solid #ccc; }
+.home-nav li { display: inline-block; height: 100%; line-height: 20px; color: black !important; margin-right: 0 !important; padding: 0 15px;}
+/* .home-nav li:first-child {border-left: 1px solid #ccc; } */
 .brand-or img {color: #fff;  margin-right: 20px; height: 50px; padding: 5px;}
 .brand-or:hover {color:#fff;}
 .topnav-right {float: right;}
