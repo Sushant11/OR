@@ -11,8 +11,7 @@ body {
     color:#2d2d2d; 
     font-size: 14px;
     line-height 1.1 !important;
-    letter-spacing: .8px;
-    
+    letter-spacing: .8px;  
 }
 
 
@@ -43,7 +42,7 @@ a:hover {
 .notice-text {margin: 0 auto; color: #fff; padding: 15px 0; text-transform: uppercase; font-family: 'Roboto'; letter-spacing: 1px;}
 
 .navbar-wrap .navbar-nav .nav-link:hover {color: none !important;}
-.navbar-wrap-drop {background: #fff; color: #fff; position: fixed !important; top: 51px; width: 100%; z-index: 9999;}
+.navbar-wrap-drop {color: #fff;top: 51px; width: 100%; z-index: 9999;}
 .navbar-wrap-drop:hover {}
 .mega-menu-img {border: 1px solid #ddd; box-shadow: 6px 10px 31px 0px rgba(209,209,209,1);}
 .brand-menu {border: 1px solid #ddd; box-shadow: 6px 10px 31px 0px rgba(209,209,209,1); border-radius: 50%;}
@@ -120,7 +119,16 @@ a:hover {
 }
 .search-form {border-radius: 0; border: none; border-bottom: 1.1px solid #000;}
 
-
+@media screen and (min-width: 769px ){
+  .navbar-wrap-drop {
+    background: #fff;
+    color: #fff;
+    position: fixed !important;
+    top: 51px;
+    width: 100%;
+    z-index: 9999;
+}
+}
 
 
 .home-nav li { display: inline-block; height: 100%; line-height: 20px; color: black !important; margin-right: 0 !important; padding: 0 15px;}
