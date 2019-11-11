@@ -149,7 +149,7 @@ a:hover {
 .grey-btn:hover {background-color: #efefef; color: #2d2d2d; transition: ease all 100ms;}
 .btn-text-home {font-size: 20px; padding: 10px;}
 .br-home {color: #000; font-size: 80px; font-weight: 800; text-transform: uppercase;}
-.sl-home {color: #000; font-size: 20px; text-transform: uppercase; }
+.sl-home {color: #000; font-size: 15px; text-transform: uppercase; }
 
 .nav-container {position: fixed; width: 100%; top: 52px; z-index: 1;}
 .top-bar {position: fixed; width: 100%; z-index: 9999;}
