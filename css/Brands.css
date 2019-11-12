@@ -1,12 +1,24 @@
 .brands {
   color:#fff;
+  margin-top:10px;
   background-color:#fff;
+  text-align: center;
 }
 
 .brands a {
   display:block;
   text-align:center;
   padding:20px 0;
+}
+.brands .social{
+  padding: 25px !important;
+  border-bottom: 1px solid rgb(65, 141, 221);
+}
+.brands .pay{
+  padding: 25px !important;
+  border-bottom: 1px solid rgb(154, 37, 201);
+  margin: 5px;
+    margin-right: -40px;
 }
 
 @media (max-width:767px) {
@@ -15,9 +27,23 @@
   }
 }
 
-.brands a img {
+.brands img {
   display:inline-block;
-  margin:10px 10px;
+  margin:25px;
   vertical-align:middle;
+  width: 2%;
+  transition: ease 300ms;
 }
 
+.brands img:hover{
+  transform: scale(1.3);
+    transition: ease 300ms;
+}
+
+.icon-adjust{
+  width: 1.5% !important;
+}
+
+.fone{
+  width: 4% !important;
+}
