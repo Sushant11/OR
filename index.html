@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="fa/css/fontawesome-all.min.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap" rel="stylesheet">
 
     <link href="mobile-side-navigation-zeynepjs/examples/css/custom.css" rel="stylesheet">
@@ -1244,7 +1244,8 @@
 
                         <div class="col-md-12 btn-home position-absolute">
                             <div class="text-center">
-                                <h1><span class="br-home revealOnScroll" data-animation='slideInLeft'> or
+                                <h1 data-aos="zoom-in" data-aos-duration="1500"
+                                data-aos-easing="ease"><span class="br-home revealOnScroll" data-animation='slideInLeft'> or
                                         clothing</span></h1>
                                 <p><span class="sl-home">Look for best quality products online.</span></p>
                                 <a href="shop-by-shop.html"><button href="shop-by-shop.html" class=" button-2c">shop by
@@ -1259,7 +1260,9 @@
             </div>
         </div>
 
-        <div class="brands">
+        <div class="brands" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" data-aos-delay="900" data-aos-duration="1500"
+        data-aos-easing="ease">
             <span class="social">
                 <img class='icon-adjust' src="images/fb.png">
                 <img class='icon-adjust' src="images/insta.png">
@@ -1460,6 +1463,11 @@
                 $("#colorOption span").not($(this).parent()).toggle();
             });
         </script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
