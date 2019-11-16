@@ -48,375 +48,404 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark navbar-wrap sm-none">
-    <div class="container-fluid">
-        <a class="brand-or" href="index.html"><img src="img/or-white.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-wrap sm-none">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 home-nav">
-                <li class="nav-item">
-                    <a class="nav-link " href="men.html">men</a>
-                </li>
-                <li class="nav-item  active">
-                    <a class="nav-link" href="women.html">women</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="women.html">all</a>
-                </li>
+            <a class="brand-or" href="index.html"><img src="img/or-white.png"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="margin-right:10px"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="margin-left: -5px;">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 home-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="men.html">men</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" h ef="women.html">women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="women.html">all</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0" style="margin-left: 15px;">
+                    <a href="#" class="pr-3 color-light search-toggler" style="color: #fff"
+                        onclick="openNav(); return false;"><i class="fas fa-search pr-2"
+                            style="color: #fff; font-size: 14px;"></i>Search</a>
+                    <a href="#"><i class="fas fa-user pr-3 pl-3" style="color: #fff; font-size: 20px;"></i></a>
+                    <a href="#"><i class="fas fa-heart pr-3 " style="color: #fff; font-size: 20px;"></i></a>
+                    <a href="#menu"><i class="fas fa-briefcase pr-5" style="color: #fff; font-size: 20px;"></i></a>
+                </form>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-wrap navbar-mobile pc-none sm-only">
+        <div class="container-fluid">
+            <ul class="nav-brand-sm">
+                <li class="btn-menu"><i class="fas fa-bars pl-3 pr-3 fa-3x"></i></li>
+                <a class="brand-or" href="#">
+                    <li><img src="img/or-white.png"></li>
+                </a>
             </ul>
 
             <form class="form-inline my-2 my-lg-0">
-                <a href="#" class="pr-3 color-light search-toggler" style="color: #fff" onclick="openNav(); return false;"><i class="fas fa-search pr-2" style="color: #fff; font-size: 14px;"></i>Search</a>
+                <a href="#" class="pr-2 color-light search-toggler" style="color: #fff"
+                    onclick="openNav(); return false;"><i class="fas fa-search pr-2"
+                        style="color: #fff; font-size: 18px;"></i></a>
                 <a href="#"><i class="fas fa-user pr-3 pl-3" style="color: #fff; font-size: 20px;"></i></a>
-                <a href="#"><i class="fas fa-heart pr-3 " style="color: #fff; font-size: 20px;"></i></a>
                 <a href="#menu"><i class="fas fa-briefcase pr-5" style="color: #fff; font-size: 20px;"></i></a>
             </form>
 
 
         </div>
-    </div>
-</nav>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-wrap-drop sm-none">
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar-wrap navbar-mobile pc-none sm-only">
-    <div class="container-fluid">
-        <ul class="nav-brand-sm">
-            <li class="btn-menu"><i class="fas fa-bars pl-3 pr-3 fa-3x"></i></li>
-            <a class="brand-or" href="#"><li><img src="img/or-white.png"></li></a></ul>
-
-        <form class="form-inline my-2 my-lg-0">
-            <a href="#" class="pr-2 color-light search-toggler" style="color: #fff" onclick="openNav(); return false;"><i class="fas fa-search pr-2" style="color: #fff; font-size: 18px;"></i></a>
-            <a href="#"><i class="fas fa-user pr-3 pl-3" style="color: #fff; font-size: 20px;"></i></a>
-            <a href="#menu"><i class="fas fa-briefcase pr-5" style="color: #fff; font-size: 20px;"></i></a>
-        </form>
-
-
-    </div>
-</nav>
-<nav class="navbar navbar-expand-lg navbar-dark navbar-wrap-drop sm-none">
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <!--        <a class="brand-or" href="#"><img src="img/or-white.png"></a>-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <li class="nav-item">
-                <a class="nav-link" href="product-list.html">Get the look</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="product-list.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    New in
-                </a>
-                <div class="dropdown-menu dropdown-wrap" aria-labelledby="navbarDropdown">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!--        <a class="brand-or" href="#"><img src="img/or-white.png"></a>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="product-list.html">Get the look</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sale!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="product-list.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        New in
+                    </a>
+                    <div class="dropdown-menu dropdown-wrap" aria-labelledby="navbarDropdown">
 
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 border-right">
-                                <span class="text-uppercase text-dark">new products</span>
-                                <ul class="nav flex-column dropdown-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">View all</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Clothing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Shoes</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Accessories</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Back in stock</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Trending now</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /.col-md-4  -->
-                            <div class="col-md-4">
-                                <a href="">
-                                    <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$" alt="" class="img-fluid mega-menu-img">
-                                </a>
-                                <p class="text-dark">Holiday wears</p>
-                            </div>
-                            <!-- /.col-md-4  -->
-                            <div class="col-md-4">
-                                <a href="">
-                                    <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$" alt="" class="img-fluid mega-menu-img">
-                                </a>
-                                <p class="text-dark">Holiday wears</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 border-right">
+                                
+                                    <ul class="nav flex-column dropdown-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">View all</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Clothing</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Shoes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Accessories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Back In Stock</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Trending Now</a>
+                                        </li>
 
-                            </div>
-                            <!-- /.col-md-4  -->
-                        </div>
-                    </div>
-                    <!--  /.container  -->
+                                    </ul>
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3">
 
+                                    <a href="">
+                                        <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$"
+                                            alt="" class="img-fluid mega-menu-img">
+                                    </a>
+                                    <p class="text-dark">Holiday wears</p>
 
-                </div>
-            </li>
-            <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="product-list.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Clothing
-                </a>
-                <div class="dropdown-menu dropdown-wrap" aria-labelledby="navbarDropdown">
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3">
 
+                                    <a href="">
+                                        <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$"
+                                            alt="" class="img-fluid mega-menu-img">
+                                    </a>
+                                    <p class="text-dark">Holiday wears</p>
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 border-right">
-                                <span class="text-uppercase text-dark">shop by product</span>
-                                <ul class="nav flex-column dropdown-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">New in</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Coats & Jackets</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Dresses</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Hoodies & Sweatshirts</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Jeans</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Jumpsuits & Rompers</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Loungewear</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Multipacks</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Pants & Leggings</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /.col-md-4  -->
-                            <div class="col-md-4 border-right">
-                                <ul class="nav flex-column dropdown-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Shorts</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Skirts</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Suits & Separates</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Sweaters & Cardigans</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Tops</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Tracksuits</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Two Piece Outfits</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /.col-md-4  -->
-                            <div class="col-md-4">
-                                <a href="">
-                                    <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$" alt="" class="img-fluid mega-menu-img">
-                                </a>
-                                <p class="text-dark">Holiday wears</p>
-
-                            </div>
-                            <!-- /.col-md-4  -->
-                        </div>
-                    </div>
-                    <!--  /.container  -->
-
-
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="product-list.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Shoes
-                </a>
-                <div class="dropdown-menu dropdown-wrap" aria-labelledby="navbarDropdown">
-
-
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 border-right">
-                                <span class="text-uppercase text-dark">shop by product</span>
-                                <ul class="nav flex-column dropdown-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">View All</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">New in</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Boots</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Flat shoes</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Heels</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Over Knee Boots</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Sandals</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Sliders & Flip flops</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Sneakers</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /.col-md-3  -->
-                            <div class="col-md-3 border-right">
-                                <span class="text-uppercase text-dark p-4">shop by brand</span>
-                                <ul class="nav flex-column dropdown-nav p-4">
-                                    <li class="nav-item">
-                                        <a href="">
-                                            <img src="img/north-face.png" alt="" class="img-fluid brand-menu">
-                                        </a>
-                                        <p class="text-dark text-uppercase text-bold p-3"><strong>North Face</strong></p>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="">
-                                            <img src="img/timberland.png" alt="" class="img-fluid brand-menu">
-                                        </a>
-                                        <p class="text-dark text-uppercase p-3"><strong>Timberland</strong></p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /.col-md-3  -->
-                            <div class="col-md-3">
-
-                                <a href="">
-                                    <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$" alt="" class="img-fluid mega-menu-img">
-                                </a>
-                                <p class="text-dark">Holiday wears</p>
-
-                            </div>
-                            <!-- /.col-md-3  -->
-                            <div class="col-md-3">
-
-                                <a href="">
-                                    <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$" alt="" class="img-fluid mega-menu-img">
-                                </a>
-                                <p class="text-dark">Holiday wears</p>
-
+                                </div>
                             </div>
                         </div>
+                        <!--  /.container  -->
+
+
                     </div>
-                    <!--  /.container  -->
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="product-list.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Clothing
+                    </a>
+                    <div class="dropdown-menu dropdown-wrap" aria-labelledby="navbarDropdown">
 
 
-                </div>
-            </li>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 border-right">
+                                
+                                    <ul class="nav flex-column dropdown-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">View all</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">New In</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Coats & Jackets</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Dresses</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Hoodies & Sweatshirts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Jeans</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Jumpsuits & Rompers</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Loungewear</a>
+                                        </li>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="product-list.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Accessories
-                </a>
-                <div class="dropdown-menu dropdown-wrap" aria-labelledby="navbarDropdown">
+                                    </ul>
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3 border-right">
+                                    <ul class="nav flex-column dropdown-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Multipacks</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Pants & Leggins</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Shorts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Skirts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Suits and Seperate</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Sweaters & Cardigans</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Tops</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Tracksuits</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-md-4  -->
+                        
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3">
 
+                                    <a href="">
+                                        <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$"
+                                            alt="" class="img-fluid mega-menu-img">
+                                    </a>
+                                    <p class="text-dark">Holiday wears</p>
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 border-right">
-                                <span class="text-uppercase text-dark">shop by product</span>
-                                <ul class="nav flex-column dropdown-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">View all</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">New in</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Bags & Purses</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Belts</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Gloves</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Hair accessories</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Hats</a>
-                                    </li>
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3">
 
-                                </ul>
-                            </div>
-                            <!-- /.col-md-3  -->
-                            <div class="col-md-3 border-right">
-                                <ul class="nav flex-column dropdown-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Jewelry & Watches</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Scarves</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Socks & Tights</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-list.html">Sunglasses</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /.col-md-3  -->
-                            <div class="col-md-3">
+                                    <a href="">
+                                        <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$"
+                                            alt="" class="img-fluid mega-menu-img">
+                                    </a>
+                                    <p class="text-dark">Holiday wears</p>
 
-                                <a href="">
-                                    <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$" alt="" class="img-fluid mega-menu-img">
-                                </a>
-                                <p class="text-dark">Holiday wears</p>
-
-                            </div>
-                            <!-- /.col-md-3  -->
-                            <div class="col-md-3">
-
-                                <a href="">
-                                    <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$" alt="" class="img-fluid mega-menu-img">
-                                </a>
-                                <p class="text-dark">Holiday wears</p>
-
+                                </div>
                             </div>
                         </div>
+                        <!--  /.container  -->
+
+
                     </div>
-                    <!--  /.container  -->
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="product-list.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shoes
+                    </a>
+                    <div class="dropdown-menu dropdown-wrap" aria-labelledby="navbarDropdown">
 
 
-                </div>
-            </li>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 border-right">
+                                
+                                    <ul class="nav flex-column dropdown-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">View all</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">New in</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Boots</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Flat Shoes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Heels</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Over Knee Boots</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Sandals</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Sliders & Flip flops</a>
+                                        </li>
 
-        </ul>
+                                    </ul>
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3 border-right">
+                                    <ul class="nav flex-column dropdown-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Sneakers</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3">
 
-    </div>
+                                    <a href="">
+                                        <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$"
+                                            alt="" class="img-fluid mega-menu-img">
+                                    </a>
+                                    <p class="text-dark">Holiday wears</p>
 
-</nav>
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3">
+
+                                    <a href="">
+                                        <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$"
+                                            alt="" class="img-fluid mega-menu-img">
+                                    </a>
+                                    <p class="text-dark">Holiday wears</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--  /.container  -->
+
+
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="product-list.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Accessories
+                    </a>
+                    <div class="dropdown-menu dropdown-wrap" aria-labelledby="navbarDropdown">
+
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 border-right">
+                                 
+                                    <ul class="nav flex-column dropdown-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">View all</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">New in</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Bags & Purses</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Belts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Gloves</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Hair accessories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Hats</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3 border-right">
+                                    <ul class="nav flex-column dropdown-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Jewelry & Watches</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Scarves</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Socks & Tights</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-list.html">Sunglasses</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3">
+
+                                    <a href="">
+                                        <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$"
+                                            alt="" class="img-fluid mega-menu-img">
+                                    </a>
+                                    <p class="text-dark">Holiday wears</p>
+
+                                </div>
+                                <!-- /.col-md-3  -->
+                                <div class="col-md-3">
+
+                                    <a href="">
+                                        <img src="https://images.asos-media.com/navigation/summertropics_ww_2wl?&$n_320w$"
+                                            alt="" class="img-fluid mega-menu-img">
+                                    </a>
+                                    <p class="text-dark">Holiday wears</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--  /.container  -->
+
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
 
 <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn search-close" onclick="closeNav()">&times;</a>
@@ -1621,50 +1650,63 @@
         
         
         
-        <div class="container-fluid">
-        <div class="row">
-           </div>
-        </div>
-        
-        <div class="brands"><a href="#"> <img src="img/facebook.png"><img src="img/insta.png"><img src="img/khalti.png"><img src="img/esewa.png"></a></div>
-        
-        <div class="footer-clean">
-        <footer>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>HELP & INFORMATION</h3>
-                        <ul>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Track Order</a></li>
-                            <li><a href="#">Delivery and Returns</a></li>
-                            <li><a href="#">10% Student Discounts</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>ABOUT OR CLOTHING</h3>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Corporate Reponsibility</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-md-3 item">
+<div class="brands" data-aos="fade-up"
+data-aos-anchor-placement="top-bottom" data-aos-delay="900" data-aos-duration="1500"
+data-aos-easing="ease">
+    <span class="social">
+        <img class='icon-adjust' src="images/fb.png">
+        <img class='icon-adjust' src="images/insta.png">
+        <img src="images/pintrest.png">
+    </span>
 
-                        <form>
-                            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
-                            <div class="input-group">
-									<span class="input-group-addon"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i></span>
-									<input type="text" class="form-control input-lg" name="email" id="email"  placeholder="Enter your Email"/>
-								</div>
-                            <button class="btn btn-primary shopcart newsletter mt-3">subscribe now</button>
-                        </form>
-                    </div>
-                    <div class="col-lg-3 item social"><p class="copyright">OR Clothing © 2019</p>
-                    </div>
+    <!-- <span>|</span> -->
+
+    <span class="pay">
+        <img src="images/khalti.png">
+        <img src="images/esewa.png">
+        <img class='fone' src="images/fone.png">
+    </span>
+</div>
+
+<div class="footer-clean">
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item ">
+                    <h3>HELP & INFORMATION</h3>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Delivery and Returns</a></li>
+                        <li><a href="#">10% Student Discounts</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>ABOUT OR CLOTHING</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Corporate Reponsibility</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+
+                    <form>
+                        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"
+                                    aria-hidden="true"></i></span>
+                            <input type="text" class="form-control input-lg" name="email" id="email"
+                                placeholder="Enter your Email" />
+                        </div>
+                        <button class="btn btn-primary shopcart newsletter mt-3">subscribe now</button>
+                    </form>
+                </div>
+                <div class="col-lg-3 item social">
+                    <p class="copyright">OR Clothing © 2019</p>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
+</div>
         
         
         <div class="modal" id="myModal">   
