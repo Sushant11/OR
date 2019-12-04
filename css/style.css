@@ -71,7 +71,7 @@ a:hover {
   width: 100%;
   position: fixed;
   overflow-y: scroll !important;
-  z-index: 1;
+  z-index: 3;
   top: 100px;
   left: 0;
   background-color: rgb(0,0,0);
@@ -357,6 +357,7 @@ a:hover {
 .limited-edition {background-image: url(../img/limited-edition.JPG); background-size: cover; height: 100vh; background-position: center;}
 .join-life {background-image: url('../img/join-life.JPG'); background-size: cover; height: 100vh; background-position: center;}
 .categ-item .card:hover {transform: scale(1.04); transition: ease all .5s;}
+.categ-item .card { transition: ease all .5s;}
 
 /* product listing page */
 .cursor-hand {cursor: pointer;}
