@@ -1761,7 +1761,6 @@
 
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/init.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/parallax.min.js"></script>
@@ -1769,108 +1768,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
         integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
         crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
-    <script src="mobile-side-navigation-zeynepjs/dist/jquery.zeynep.min.js"></script>
-
-    <script>
-        $(function () {
-            // init zeynepjs
-            var zeynep = $('.zeynep').zeynep({
-                onClosed: function () {
-                    // enable main wrapper element clicks on any its children element
-                    $("body main").attr("style", "");
-
-                    console.log('the side menu is closed.');
-                },
-                onOpened: function () {
-                    // disable main wrapper element clicks on any its children element
-                    $("body main").attr("style", "pointer-events: none;");
-
-                    console.log('the side menu is opened.');
-                }
-            });
-
-            // handle zeynep overlay click
-            $(".zeynep-overlay").click(function () {
-                zeynep.close();
-            });
-
-            // open side menu if the button is clicked
-            $(".btn-menu").click(function () {
-                if ($("html").hasClass("zeynep-opened")) {
-                    zeynep.close();
-                } else {
-                    zeynep.open();
-                }
-            });
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $('.trending-carousel').slick({
-                slidesToShow: 1,
-
-    ]
-            });
-        });       
-    </script>
-    <script>
-
-        function openSearch() {
-            document.getElementById("#searchbox").style.height = "100%";
-        }
-
-        function openNav() {
-            document.getElementById("myNav").style.height = "100%";
-            $("button").click(function () {
-                $("p").css("color", "red");
-            });
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
-        }
-    </script>
-
-    <script>
-        function openNav1() {
-            document.getElementById("myNav1").style.width = "70%";
-            $("button").click(function () {
-            });
-        }
-
-        function closeNav1() {
-            document.getElementById("myNav1").style.width = "0%";
-        }
-    </script>
-
-    <script>
-        $(".search-toggler").click(function () {
-            $("body").css("overflow", "hidden");
-        });
-
-        $(".search-close").click(function () {
-            $("body").css("overflow", "auto");
-        });
-    </script>
-
-    <script>
-        $(".nav-toggler").click(function () {
-            $("body").css("overflow", "hidden");
-        });
-
-        $(".nav-close").click(function () {
-            $("body").css("overflow", "auto");
-        });
-    </script>
+        <script src="mobile-side-navigation-zeynepjs/dist/jquery.zeynep.min.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
 
     <script>
         var swiper = new Swiper('.swiper-container', {
@@ -1883,34 +1790,6 @@
             },
         });
 
-        function switchVisible() {
-            if (document.getElementById('oneItem')) {
-
-                if (document.getElementById('oneItem').style.display == 'none') {
-                    document.getElementById('oneItem').style.display = 'flex';
-                    document.getElementById('twoItem').style.display = 'none';
-                }
-                else {
-                    document.getElementById('oneItem').style.display = 'none';
-                    document.getElementById('twoItem').style.display = 'flex';
-                }
-            }
-        }
-
-
-        function openNav() {
-            document.getElementById("myNav").style.height = "100%";
-            $("button").click(function () {
-                $("p").css("color", "red");
-            });
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
-        }
-    </script>
-
-    <script>
         $(document).ready(function () {
             var s = $(".thumbnail");
             var p = $(".p-detail-size");
@@ -1928,23 +1807,6 @@
         });
     </script>
 
-    <script>
-        $("#p1").elevateZoom()({
-            zoomType: "inner",
-            cursor: "crosshair"
-        })
-    </script>
-
-
-    <script>
-        $("#sizelist li a").click(function () {
-            $("#sizelist li").not($(this).parent()).toggle();
-        });
-
-        $("#colorOption span a").click(function () {
-            $("#colorOption span").not($(this).parent()).toggle();
-        });
-    </script>
 </body>
 
 </html>
